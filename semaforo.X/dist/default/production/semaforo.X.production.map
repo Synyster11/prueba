@@ -1,0 +1,61 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Sun Sep 26 15:54:46 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                 RES_VECT       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                MAIN_PROG       code   0x000003    program   0x0000aa
+.config_2007_BUILD/DEFAULT/PRODUCTION/SEMAFOR       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000057      
+                            0x002007    0x002007      
+            89 out of 2182 program addresses used, program memory utilization is 4%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    START   0x000003    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                    cinco   0x000023    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+            cincosegundos   0x00001a    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                    iloop   0x000047    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                   iloopl   0x000029    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                   inicio   0x00000b    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                    jloop   0x00004e    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                   jloopl   0x000030    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                    kloop   0x000051    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                   kloopl   0x000033    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                    mloop   0x000043    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                   mloopl   0x000025    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                      uno   0x000041    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                unsegundo   0x00003a    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    START   0x000003    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                   inicio   0x00000b    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+            cincosegundos   0x00001a    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                    cinco   0x000023    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                   mloopl   0x000025    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                   iloopl   0x000029    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                   jloopl   0x000030    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                   kloopl   0x000033    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                unsegundo   0x00003a    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                      uno   0x000041    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                    mloop   0x000043    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                    iloop   0x000047    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                    jloop   0x00004e    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+                    kloop   0x000051    program     static C:\Users\rober\MPLABXProjects\semaforo.X\semaforo1.asm
+
+
